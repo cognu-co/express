@@ -4,7 +4,6 @@ import { styled } from '@cognu-ui/react'
 export const ServicesContainer = styled('div', {
   display: 'flex',
   flexDirection: 'row',
-  justifyContent: 'space-between',
   alignItems: 'center',
   height: 'calc(100vh - 70px)',
 
@@ -14,10 +13,10 @@ export const ServicesContainer = styled('div', {
   },
 
   '> main': {
-    maxWidth: 600,
+    maxWidth: 786,
     margin: '0 auto',
     display: 'flex',
-    gap: '$2'
+    gap: '$3'
   }
 })
 
@@ -28,10 +27,10 @@ export const Service = styled(Link, {
   alignItems: 'center',
   textAlign: 'center',
 
-  height: '350px',
+  overflow: 'hidden',
+  height: '250px',
   width: '500px',
-  padding: '$1',
-  paddingTop: '$3',
+  padding: '$2',
   borderRadius: '$md',
 
   border: '2px solid $white',
@@ -51,8 +50,8 @@ export const Service = styled(Link, {
   },
 
   img: {
-    width: '240px',
-    height: '240px',
+    width: '140px',
+    height: '140px',
     objectFit: 'contain'
   }
 })
