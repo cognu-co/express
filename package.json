@@ -1,9 +1,9 @@
 {
-  "name": "cartoons",
+  "name": "express",
   "version": "1.0.0",
-  "description": "An Electron application with React and TypeScript",
+  "description": "Cognu ERP System",
   "main": "./out/main/index.js",
-  "author": "example.com",
+  "author": "cognu.co",
   "homepage": "https://www.electronjs.org",
   "scripts": {
     "format": "prettier --write .",
