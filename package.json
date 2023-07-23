@@ -20,11 +20,16 @@
     "build:linux": "electron-vite build && electron-builder --linux --config"
   },
   "dependencies": {
-    "@cognu-ui/react": "^2.2.1",
+    "@cognu-ui/react": "^3.0.0",
     "@electron-toolkit/preload": "^1.0.3",
     "@electron-toolkit/utils": "^1.0.2",
+    "@hookform/resolvers": "^3.0.1",
     "electron-router-dom": "^1.0.5",
-    "react-router-dom": "^6.8.1"
+    "phosphor-react": "^1.4.1",
+    "react-hook-form": "^7.43.9",
+    "react-hot-toast": "^2.4.0",
+    "react-router-dom": "^6.8.1",
+    "zod": "^3.21.4"
   },
   "devDependencies": {
     "@electron-toolkit/tsconfig": "^1.0.1",
